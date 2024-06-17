@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.aplikasi.koyabu" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>Koyabu</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="centerstagemanado@gmail.com" href="https://www.centersoft.dimanado.biz.id">
+        centerstagemanado@gmail.com
+    </author>
+    <content src="index.html" />
+	<icon src="res/icon.png" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="http://*" />
+    <allow-navigation href="https://*" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="AndroidLaunchMode" value="singleTask" />
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />	
+    <preference name="AndroidExtraFilesystems" value="sdcard,cache" />
+    <preference name="AndroidInsecureFileModeEnabled" value="true" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="AndroidLaunchMode" value="singleTop" />
+    <preference name="GOOGLE_MAPS_ANDROID_API_KEY" value="GOOGLE_MAPS_ANDROID_API_KEY" />
+    <preference name="android-targetSdkVersion" value="33" />
+    <preference name="android-minSdkVersion" value="28" />
+    <preference name="AndroidXEnabled" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/logo.png" />
+        <preference name="AndroidWindowSplashScreenIconBackgroundColor" value="#FFFFFF" />
+        <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
+		  <application android:usesCleartextTraffic="true" />
+		</edit-config>
+		<custom-config-file target="AndroidManifest.xml" mode="merge" parent="/*">
+		<uses-permission android:name="android.permission.BLUETOOTH" />
+		<uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+		<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+		<uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+		<uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+		</custom-config-file>
+    </platform>
+</widget>
+

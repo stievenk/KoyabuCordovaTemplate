@@ -1,0 +1,39 @@
+.box-radius {
+	border-radius: 0.45rem !important;
+}
+
+.box-header {
+	background-color: var(--blue);
+}
+
+.btn-xl-rounded, .btn-xl-radius, .radius150 {
+    border-radius: 1.5rem !important;
+}
+
+.btn-lg-rounded, .btn-lg-radius, .radius100 {
+    border-radius: 1.1rem !important;
+}
+
+.radius75 {
+    border-radius: 0.75rem !important;
+}
+
+.top-radius75 {
+    border-radius: 0.75rem 0.75rem 0 0 !important;
+}
+
+.bottom-radius75 {
+    border-radius: 0 0 0.75rem 0.75rem !important;
+}
+
+.radius50 {
+    border-radius: 0.5rem !important;
+}
+
+.top-radius50 {
+    border-radius: 0.5rem 0.5rem 0 0 !important;
+}
+
+.bottom-radius50 {
+    border-radius: 0 0 0.5rem 0.5rem !important;
+}

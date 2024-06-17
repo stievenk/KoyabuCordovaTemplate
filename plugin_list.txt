@@ -1,0 +1,48 @@
+rem # Mandotari
+cordova-plugin-app-version
+cordova-plugin-device
+cordova-plugin-dialogs
+cordova-plugin-inappbrowser
+cordova-plugin-network-information
+cordova.plugins.diagnostic
+cordova-plugin-android-permissions
+cordova-plugin-camera
+cordova-plugin-file-transfer
+cordova-plugin-native-spinner
+cordova-plugin-screen-orientation
+cordova-plugin-statusbar
+
+rem #Only for Android 10<
+rem cordova-plugin-splashscreen
+
+rem # for print
+phonegap-plugin-barcodescanner-android12
+cordova-plugin-bluetooth-serial-a10
+cordova-plugin-datecs-printer
+cordova-plugin-printer
+rem https://github.com/CesarBalzer/Cordova-Plugin-BTPrinter
+
+rem # require
+phonegap-plugin-multidex
+cordova-plugin-androidx-adapter
+
+rem # map require
+https://github.com/mapsplugin/cordova-plugin-googlemaps.git#0b8ea76ad34fb2a202a9de1b9d0e051a82ad9443
+
+rem # Youtube Player
+https://github.com/davidefavia/cordova-plugin-in-app-youtube
+
+rem # firebase FCM notif require
+cordova-plugin-firebasex
+cordova-plugin-buildinfo --save
+rem https://github.com/eldadfux/cordova-plugin-universal-links --save
+rem cordova-plugin-browsertab --save
+
+rem cordova-plugin-customurlscheme --variable URL_SCHEME=koyabuapp
+
+rem cordova-plugin-in-app-updates
+rem cordova-plugin-sms-receive
+rem cordova-plugin-biometric-auth
+rem cordova-plugin-background-fetch
+
+rem https://github.com/diegorribeiro/cordova-plugin-mock-location-checker.git

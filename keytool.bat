@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jre1.8.0_341\bin\keytool.exe" -list -v -alias watulambot-apps -keystore watulambot.keystore
