@@ -6,8 +6,8 @@ var SERVER_PATH = '/projects/Android-Apps/Android_12-13/HENSKRISTAL_M/web/api/';
 
 /* Publish * /
 var SERVER_PROTOCOL = 'https://';
-var SERVER_ADDR = 'api.dimanado.biz.id';
-var SERVER_PATH = '/hkm/';
+var SERVER_ADDR = 'yourdomainname.com';
+var SERVER_PATH = '/api/endpoint/';
 
 /**/
 
